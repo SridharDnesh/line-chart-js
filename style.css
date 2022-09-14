@@ -1,0 +1,56 @@
+.chart__wrapper {
+  width: 100%;
+}
+
+.lineChart {
+  display: flex;
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 1.4945039749px 1.9473838806px 0px rgba(0, 0, 0, 0.0352941176), 0px 4.1321120262px 5.3842673302px 0px rgba(0, 0, 0, 0.0509803922), 0px 9.9485340118px 12.9632415771px 0px rgba(0, 0, 0, 0.0666666667);
+  border-radius: 12px;
+}
+
+.sticky__canvas__wrapper {
+  display: none;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100px;
+}
+.sticky__canvas__wrapper canvas {
+  background-color: white;
+}
+
+.main__canvas__wrapper {
+  width: 550px;
+  height: 100%;
+  overflow: auto;
+}
+.main__canvas__wrapper canvas {
+  background-color: white;
+}
+@media only screen and (min-width: 1366px) {
+  .main__canvas__wrapper {
+    width: 650px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .main__canvas__wrapper {
+    width: 750px;
+  }
+}
+
+.chart__average__text {
+  width: 100%;
+  margin-top: 20px;
+}
+.chart__average__text p {
+  font-size: 13px;
+}
+
+.chart__divider {
+  border: 0px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+  width: 96%;
+  margin: 0px auto 20px;
+}/*# sourceMappingURL=style.css.map */

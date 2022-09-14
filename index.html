@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LineChart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./lineChart.js"></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="chart__wrapper">
+      <hr class="chart__divider" />
+
+      <div id="lineChart" class="lineChart">
+        <div id="yAxisSticky" class="sticky__canvas__wrapper">
+          <canvas id="YAxiscanvas"></canvas>
+        </div>
+        <div id="canvasContainer" class="main__canvas__wrapper">
+          <canvas id="canvas"></canvas>
+        </div>
+      </div>
+      <div class="chart__average__text">
+        <p>Average</p>
+      </div>
+    </div>
+  </body>
+</html>

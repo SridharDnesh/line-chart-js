@@ -1,0 +1,58 @@
+.chart__wrapper {
+    // width: 100%;
+    width: 1000px;
+  }
+  
+  .lineChart {
+    display: flex;
+    width: 100%;
+    position: relative;
+    box-shadow: 0px 1.4945039749145508px 1.9473838806152344px 0px #00000009,
+      0px 4.1321120262146px 5.384267330169678px 0px #0000000d,
+      0px 9.94853401184082px 12.963241577148438px 0px #00000011;
+    border-radius: 12px;
+  }
+  
+  .sticky__canvas__wrapper {
+    display: none;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    canvas {
+      background-color: white;
+    }
+  }
+  
+  .main__canvas__wrapper {
+    width: 550px;
+    height: 100%;
+    overflow: auto;
+    canvas {
+      background-color: white;
+    }
+  
+    @media only screen and (min-width: 1366px) {
+      width: 650px
+    }
+    @media only screen and (min-width: 1440px) {
+      width: 750px
+    }
+  }
+  
+  
+  .chart__average__text {
+    width: 100%;
+    margin-top: 20px;
+    p{
+      font-size: 13px;
+    }
+  }
+  
+  .chart__divider {
+    border: 0px;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+    width: 96%;
+    margin: 0px auto 20px;
+  }
+  
